@@ -31,6 +31,7 @@ Connect to it, and create a database called file_db and a collection called file
 Head back to your IDE, and then run the code, the instance will be created on port 5000 by default on your local machine, open it up on your browser.\
 Browse to a file and click on upload, it should return the metadata of the file and it should reflect on MongoDB.
 
+---
 ### Linux
 
 For a linux installation, the steps wouldn't change greatly.\
@@ -38,8 +39,18 @@ You can clone the repository:
 ```bash
 git clone https://github.com/AlphaNewt7/FlaskMongo.git
 ```
+Make sure your MongoDB Compass is up and running to query data back and forth.
+```bash
+sudo service mongod start
+```
 Then 'cd' to the cloned repo. Now, as mentioned above, you will need to intsall the required dependencies, you can do that via pip or pip3. And then run the flask app via:
 ```bash
 python3 main.py
 ```
 Make sure your MongoDB Compass is up and running to query data back and forth.
+
+---
+
+## UI
+This is what the web interface looks like:
+![image](https://github.com/AlphaNewt7/FlaskMongo/assets/71941891/6161a6f4-5c94-4f09-8c36-c851b16c8e93)
